@@ -17,6 +17,7 @@ h1, h2, h3 {
 
 .underscore a {
     text-decoration: none;
+    color: yellow;
 }
 
 .underscore h1 {
@@ -127,4 +128,50 @@ html.dark-blue-theme .hero {
 
 html.dark-blue-theme .hero a {
     color: #fff;
+}
+
+.foot, .footer{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 80%;
+    opacity: .5;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+.c img {
+    max-width: 480px;
+    max-height: 500px;
+}
+
+ul, li {
+    text-align: left;
+    margin: 5px;
+}
+
+code {
+    color: yellow;
+}
+
+
+.c:first-of-type {float:left}
+.c:last-of-type {float:right}
+.split-40 .c:first-of-type {width: 40%}
+.split-40 .c:last-of-type {width:60%; margin-left: 60%}
+.split-50 .c:first-of-type {width: 50%}
+.split-50 .c:last-of-type {width:50%;margin-left: 50%}
+.split-60 .c:first-of-type {width: 60%}
+.split-60 .c:last-of-type {margin-left: 40%}
+.split-70 .c:first-of-type {width: 70%}
+.split-70 .c:last-of-type {margin-left: 30%}
+
+ol{
+    padding: 20px; 
+    list-style-type:decimal;
+    font-size: 90%;
+    line-height: 40px;
 }

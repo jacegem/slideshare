@@ -1,6 +1,4 @@
-# Readme
+# Slide Share
 
-share my slides.
-
-- [발표자료](http://jacegem.github.io/slideshare/2017/it21/book.html)
+- [2017 IT21 Conference 발표자료](http://jacegem.github.io/slideshare/2017/it21.html)
 
